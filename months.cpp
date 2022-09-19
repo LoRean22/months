@@ -2,7 +2,7 @@
 
 using namespace std;
 
-enum months
+enum class months
 {
     JANUARY = 1,
     FEBRUARY,
@@ -34,37 +34,37 @@ int main() {
         case static_cast<int>(months::JANUARY):
             cout << "Январь" << "\n";
             break;
-        case months::FEBRUARY:
+        case statis_cast<int>(months::FEBRUARY):
             cout << "Февраль" << "\n";
             break;
-        case months::MARCH:
+        case static_cast<int>(months::MARCH):
             cout << "Март" << "\n";
             break;
-        case months::APRIL:
+        case static_cast<int>(months::APRIL):
             cout << "Апрель" << "\n";
             break;
-        case months::MAY:
+        case static_cast<int>(months::MAY):
             cout << "Май" << "\n";
             break;
-        case months::JUNE:
+        case static_cast<int>(months::JUNE):
             cout << "Июнь" << "\n";
             break;
-        case months::JULY:
+        case static_cast<int>(months::JULY):
             cout << "Июль" << "\n";
             break;
-        case months::AUGUST:
+        case static_cast<int>(months::AUGUST):
             cout << "Август" << "\n";
             break;
-        case months::SEPTEMBER:
+        case static_cast<int>(months::SEPTEMBER):
             cout << "Сентябрь" << "\n";
             break;
-        case months::OCTOBER:
+        case static_cast<int>(months::OCTOBER):
             cout << "Октярбрь" << "\n";
             break;
-        case months::NOVEMBER:
+        case static_cast<int>(months::NOVEMBER):
             cout << "Ноябрь" << "\n";
             break;
-        case months::DECEMBER:
+        case static_cast<int>(months::DECEMBER):
             cout << "Декабрь" << "\n";
             break;
         default:
